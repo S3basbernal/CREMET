@@ -1,67 +1,36 @@
-/* Estilo global del cuerpo del documento */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
 }
 
-/* Estilo para los elementos de encabezado, sección y pie de página */
-header, section, footer {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Estilo específico para el encabezado */
 header {
     background-color: #4CAF50;
     color: white;
     text-align: center;
-}
-
-/* Estilo específico para las secciones */
-section {
-    background-color: #fff;
-    margin-top: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding-bottom: 20px;
-}
-
-/* Estilo para los encabezados de segundo nivel (h2) */
-h2 {
-    color: #4CAF51;
-}
-
-/* Estilo específico para el pie de página */
-footer {
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-}
-
-/* Estilo para los botones de llamada a la acción (CTA) */
-.cta-button {
-    display: inline-block;
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-/* Estilo para la sección de testimonios */
-#testimonios {
-    text-align: center;
     padding: 20px;
 }
 
-/* Estilo para el contenedor de testimonios */
-#testimonio-banner {
+#productos {
     display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    max-height: 150px; /* Ajusta según el contenido de tu banner */
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.producto {
+    text-align: center;
+    margin: 20px;
+}
+
+#testimonios, #cta {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
