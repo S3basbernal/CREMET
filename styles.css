@@ -1,3 +1,4 @@
+/* Estilo global del cuerpo del documento */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -5,18 +6,21 @@ body {
     background-color: #f8f8f8;
 }
 
+/* Estilo para los elementos de encabezado, sección y pie de página */
 header, section, footer {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
 
+/* Estilo específico para el encabezado */
 header {
     background-color: #4CAF50;
     color: white;
     text-align: center;
 }
 
+/* Estilo específico para las secciones */
 section {
     background-color: #fff;
     margin-top: 20px;
@@ -24,10 +28,12 @@ section {
     padding-bottom: 20px;
 }
 
+/* Estilo para los encabezados de segundo nivel (h2) */
 h2 {
     color: #4CAF51;
 }
 
+/* Estilo específico para el pie de página */
 footer {
     text-align: center;
     margin-top: 20px;
@@ -36,6 +42,7 @@ footer {
     color: white;
 }
 
+/* Estilo para los botones de llamada a la acción (CTA) */
 .cta-button {
     display: inline-block;
     background-color: #4CAF50;
@@ -45,11 +52,13 @@ footer {
     border-radius: 5px;
 }
 
+/* Estilo para la sección de testimonios */
 #testimonios {
     text-align: center;
     padding: 20px;
 }
 
+/* Estilo para el contenedor de testimonios */
 #testimonio-banner {
     display: flex;
     flex-direction: column;
@@ -57,20 +66,7 @@ footer {
     max-height: 150px; /* Ajusta según el contenido de tu banner */
 }
 
+/* Estilo para los elementos de testimonio */
 .testimonial {
     display: none;
-}
-
-.testimonial.active {
-    display: block;
-    animation: fadeInOut 5s linear infinite;
-}
-
-@keyframes fadeInOut {
-    0%, 20%, 100% {
-        opacity: 0;
-    }
-    10%, 90% {
-        opacity: 1;
-    }
 }
