@@ -1,9 +1,15 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset de estilos */
+body, h1, h2, p, blockquote {
     margin: 0;
     padding: 0;
 }
 
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* Estilos del encabezado */
 header {
     background-color: #4CAF50;
     color: white;
@@ -11,26 +17,75 @@ header {
     padding: 20px;
 }
 
-#productos {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
+h1 {
+    font-size: 2em;
 }
 
-.producto {
-    text-align: center;
-    margin: 20px;
-}
-
-#testimonios, #cta {
-    background-color: #f2f2f2;
-    padding: 20px;
+/* Estilos de la sección Nuestros Helados */
+#nuestros-helados {
+    max-width: 800px;
+    margin: 20px auto;
     text-align: center;
 }
 
+.helado {
+    margin-bottom: 20px;
+}
+
+.helado img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de la sección Lo que dicen nuestros clientes */
+#testimonios {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+.testimonial blockquote {
+    font-style: italic;
+    color: #555;
+}
+
+.client-name {
+    font-weight: bold;
+}
+
+/* Estilos del pie de página */
 footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
     background-color: #333;
     color: white;
-    text-align: center;
-    padding: 10px;
+}
+
+/* Estilos del botón de llamada a la acción */
+.cta-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Estilos generales para secciones */
+section {
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Estilos para encabezados de segundo nivel (h2) */
+h2 {
+    color: #4CAF51;
 }
