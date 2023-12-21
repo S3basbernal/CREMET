@@ -1,15 +1,10 @@
-/* Reset de estilos */
-body, h1, h2, p, blockquote {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: #f8f8f8;
 }
 
-/* Estilos del encabezado */
 header {
     background-color: #4CAF50;
     color: white;
@@ -17,12 +12,7 @@ header {
     padding: 20px;
 }
 
-h1 {
-    font-size: 2em;
-}
-
-/* Estilos de la sección Nuestros Helados */
-#nuestros-helados {
+section {
     max-width: 800px;
     margin: 20px auto;
     text-align: center;
@@ -38,27 +28,14 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilos de la sección Lo que dicen nuestros clientes */
 #testimonios {
-    max-width: 800px;
-    margin: 20px auto;
-    text-align: center;
+    margin-top: 20px;
 }
 
 .testimonial {
     margin-bottom: 20px;
 }
 
-.testimonial blockquote {
-    font-style: italic;
-    color: #555;
-}
-
-.client-name {
-    font-weight: bold;
-}
-
-/* Estilos del pie de página */
 footer {
     text-align: center;
     margin-top: 20px;
@@ -67,25 +44,6 @@ footer {
     color: white;
 }
 
-/* Estilos del botón de llamada a la acción */
-.cta-button {
-    display: inline-block;
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-/* Estilos generales para secciones */
-section {
-    background-color: #fff;
-    margin-top: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-}
-
-/* Estilos para encabezados de segundo nivel (h2) */
 h2 {
     color: #4CAF51;
 }
