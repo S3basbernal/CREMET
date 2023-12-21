@@ -54,6 +54,32 @@
         <p class="client-name">- Ana Rodríguez</p>
     </div>
 
+    </section>
+
+<section id="pedido">
+    <h2>Realiza tu Pedido en Línea</h2>
+
+    <form action="procesar_pedido.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="helado">Selecciona tu helado favorito:</label>
+        <select id="helado" name="helado" required>
+            <option value="frutas">Helado de Frutas</option>
+            <option value="yogur_granola">Helado de Yogur con Granola</option>
+            <!-- Agrega más opciones según tus helados -->
+
+        </select>
+
+        <label for="comentarios">Comentarios adicionales:</label>
+        <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+
+        <input type="submit" value="Enviar Pedido">
+    </form>
+    
 </section>
 
 <footer>
