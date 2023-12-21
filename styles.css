@@ -65,8 +65,3 @@ footer {
     overflow: hidden;
     max-height: 150px; /* Ajusta según el contenido de tu banner */
 }
-
-/* Estilo para los elementos de testimonio */
-.testimonial {
-    display: none;
-}
